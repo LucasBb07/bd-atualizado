@@ -91,9 +91,12 @@ export async function addpartida(req, res) {
     const timeCasa = await Time.findById(req.body.timecasa);
     const timeFora = await Time.findById(req.body.timefora);
 
+var pontoscasa, pontosfora
+
 
     if(golcasa > golfora ){
-    time.camisa + 3        
+    pontoscasa = 3
+    pontosfora = 0        
 
     }
 
